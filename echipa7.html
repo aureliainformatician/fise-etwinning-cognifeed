@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Echipa 7: Eco-Textile & Digital Well-being</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background-color: #f4f6f9; color: #333; line-height: 1.6; }
+        .container { max-width: 850px; margin: auto; background: white; padding: 25px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+        h1 { color: #1e8449; text-align: center; margin-bottom: 5px; }
+        .subtitle { text-align: center; color: #7f8c8d; font-weight: bold; margin-bottom: 30px; }
+        .section { margin-bottom: 35px; padding: 20px; border: 1px solid #e0e0e0; border-radius: 10px; background-color: #fafafa; }
+        h2 { color: #27ae60; margin-top: 0; font-size: 1.2rem; border-bottom: 2px solid #2ecc71; padding-bottom: 5px; }
+        .info-box { background-color: #eafaf1; padding: 12px 15px; border-left: 5px solid #2ecc71; border-radius: 4px; margin-bottom: 15px; }
+        .info-box p { margin: 5px 0; }
+        canvas { border: 2px dashed #2ecc71; background-color: #fff; cursor: crosshair; touch-action: none; display: block; margin: 10px 0; width: 100%; height: 220px; border-radius: 8px; }
+        .controls { margin: 10px 0; display: flex; gap: 15px; align-items: center; }
+        textarea { width: 100%; height: 120px; padding: 12px; border-radius: 6px; border: 1px solid #ccc; font-family: inherit; font-size: 14px; box-sizing: border-box; }
+        button { background-color: #e74c3c; color: white; border: none; padding: 8px 14px; border-radius: 6px; cursor: pointer; font-weight: bold; }
+        button:hover { background-color: #c0392b; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🌱 ECHIPA 7: ECO-TEXTILE & DIGITAL WELL-BEING</h1>
+        <p class="subtitle">Proiect eTwinning „Cognifeed”: Construim împreună obiceiuri sănătoase digitale!</p>
+        
+        <!-- MEMBRU 1 -->
+        <div class="section">
+            <h2>Membru 1: Reciclarea & Începutul Poveștii (Detox de Notificări)</h2>
+            <div class="info-box">
+                <p><strong>📖 Manual (Textile):</strong> Reciclarea fibrelor reduce deșeurile[cite: 13].</p>
+                <p><strong>🛡️ Cognifeed:</strong> Dezactivarea notificărilor inutile reduce deșeurile mentale[cite: 13].</p>
+            </div>
+            <p><strong>🎨 Cerință desen:</strong> Un coș de reciclare textilă plasat lângă un ecran cu notificări oprite: „Detox Digital & Eco”[cite: 13].</p>
+            <div class="controls">
+                <label>🎨 Culoare: <input type="color" id="color1" value="#27ae60"></label>
+                <button id="clear1">Șterge desenul 🗑️</button>
+            </div>
+            <canvas id="canvas1"></canvas>
+            <p><strong>✍️ Povestea - Capitolul 1 (Membru 1):</strong></p>
+            <textarea>Călin a privit telefonul care vibra continuu din cauza a zeci de notificări inutile primite din aplicații. Amintindu-și de reciclarea deșeurilor textile care curăță mediul înconjurător, el a luat o decizie fermă: „Facem un detox digital complet! Reciclăm atenția noastră prețioasă și închidem toate notificările inutile pentru a obține o minte curată, liniștită și ecologică”...</textarea>
+        </div>
+
+        <!-- MEMBRU 2 -->
+        <div class="section">
+            <h2>Membru 2: Coloranții Naturali & Continuarea Poveștii (Fără Filtre False)</h2>
+            <div class="info-box">
+                <p><strong>📖 Manual (Textile):</strong> Coloranții naturali sunt siguri și prietenoși cu mediul[cite: 13].</p>
+                <p><strong>🛡️ Cognifeed:</strong> Autenticitatea pe rețele este mai sănătoasă decât filtrele excesive[cite: 13].</p>
+            </div>
+            <p><strong>🎨 Cerință desen:</strong> Plante colorante naturale și un profil online fără filtre false: „Fii tu înțiți!”[cite: 13].</p>
+            <div class="controls">
+                <label>🎨 Culoare: <input type="color" id="color2" value="#117a65"></label>
+                <button id="clear2">Șterge desenul 🗑️</button>
+            </div>
+            <canvas id="canvas2"></canvas>
+            <p><strong>✍️ Povestea - Capitolul 2 (Membru 2):</strong></p>
+            <textarea>Mara a continuat povestea privind plantele folosite pentru obținerea coloranților naturali în laboratoarele de tehnologie: „Natura este minunată exact așa cum este ea. De ce ne-am ascunde în spatele unor filtre ireale și exagerate pe rețelele sociale? În proiectul Cognifeed alegem autenticitatea pură: suntem naturali, sinceri și plini de încredere în propria noastre persoane!”...</textarea>
+        </div>
+
+        <!-- MEMBRU 3 -->
+        <div class="section">
+            <h2>Membru 3: Durabilitatea & Continuarea Poveștii (Consum Conștient)</h2>
+            <div class="info-box">
+                <p><strong>📖 Manual (Textile):</strong> Produsele durabile rezistă în timp[cite: 14].</p>
+                <p><strong>🛡️ Cognifeed:</strong> Informațiile verificate ne construiesc o cultură solidă[cite: 14].</p>
+            </div>
+            <p><strong>🎨 Cerință desen:</strong> O haină durabilă pe termen lung și un ecran cu știri verificate cu mare grijă[cite: 14].</p>
+            <div class="controls">
+                <label>🎨 Culoare: <input type="color" id="color3" value="#2980b9"></label>
+                <button id="clear3">Șterge desenul 🗑️</button>
+            </div>
+            <canvas id="canvas3"></canvas>
+            <p><strong>✍️ Povestea - Capitolul 3 (Membru 3):</strong></p>
+            <textarea>Vlad a privit știrile care curgeau rapid pe bandă rulantă online: „O haină de calitate superioară este durabilă și nu se deteriorează la prima purtare. Exact la fel procedăm și în cazul informației: refuzăm știrile pe fugă și selectăm doar conținut durabil, verificat și sigur pentru cultura noastră digitală”...</textarea>
+        </div>
+
+        <!-- MEMBRU 4 -->
+        <div class="section">
+            <h2>Membru 4: Spălarea la Rece & Finalul Poveștii (Calmarea Conflictelor)</h2>
+            <div class="info-box">
+                <p><strong>📖 Manual (Textile):</strong> Respectarea temperaturii spală hainele fără să le distrugă[cite: 14].</p>
+                <p><strong>🛡️ Cognifeed:</strong> Abordarea calmă stinge conflictele online[cite: 14].</p>
+            </div>
+            <p><strong>🎨 Cerință desen:</strong> O mașină de spălat setată la temperatură blândă și mesajul: „Calm & Respect în Online”[cite: 14].</p>
+            <div class="controls">
+                <label>🎨 Culoare: <input type="color" id="color4" value="#16a085"></label>
+                <button id="clear4">Șterge desenul 🗑️</button>
+            </div>
+            <canvas id="canvas4"></canvas>
+            <p><strong>✍️ Povestea - Capitolul 4 (Membru 4):</strong></p>
+            <textarea>Ruxandra a încheiat povestea eco-textilelor: „Atunci când o haină este delicată, o spălăm la temperatură blândă ca să n-o distrugem. Când cineva ne jignește pe chat, aplicăm „spălarea la rece” Cognifeed: ne păstrăm calmul desăvârșit, blocăm răutatea și stingem conflictul cu eleganță și inteligență!”...</textarea>
+        </div>
+    </div>
+
+    <script>
+        function setupCanvas(canvasId, colorId, clearBtnId) {
+            const canvas = document.getElementById(canvasId);
+            const ctx = canvas.getContext('2d');
+            let painting = false;
+
+            function resize() {
+                canvas.width = canvas.offsetWidth;
+                canvas.height = canvas.offsetHeight;
+            }
+            window.addEventListener('load', resize);
+
+            function startPosition(e) { painting = true; draw(e); }
+            function finishedPosition() { painting = false; ctx.beginPath(); }
